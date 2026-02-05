@@ -128,9 +128,9 @@ def show_predictions(predictions):
 
 
 def main():
-    st.set_page_config(page_title="Smart AI Image Classifier", page_icon="📸", layout="centered")
+    st.set_page_config(page_title="SmartVision AI", page_icon="📸", layout="centered")
 
-    st.title("Smart AI Image Classifier")
+    st.title("Image Recognition & Classification App")
     st.write("Upload an image or capture from webcam and let AI tell you what it is!")
 
     # ===== FEATURE: MODEL CACHING (Performance Optimization) =====
